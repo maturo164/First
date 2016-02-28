@@ -1,7 +1,1 @@
-# First
-<<<<<<< HEAD
-Založil som ho, lebo som musel. Bohužia¾. 
-Hovadina
-=======
-## ZaloÅ¾il som ho, lebo som musel
->>>>>>> origin/master
+Zalozil som ho lebo to bolo zadanie ulohy
