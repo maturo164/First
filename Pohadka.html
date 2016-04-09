@@ -7,25 +7,26 @@
     <style>   
 body {
 	max-width: 1000px ;
-	padding: 0 20px;
-	margin: 40px auto;
+	padding: 20px;
+	margin: 40px;
     background-color: #CCFF99;
-    font-size: 140%;
+    font-size: 100%;
+    font-family: sans-serif
 }
 
 h1, .zanr {
-    font-size: 200%;
+    font-size: 120%;
     font-family: Verdana;
 	text-align: center;
 	text-transform: capitalize;	
 }
 
 h1 {
-	text-shadow: 2px 2px #ABABAB;
-	text-decoration: underline;
+	
 	font-weight: bold;
+    color:darkblue; font-size: 190%
 }
-
+        h2{color:darkorange}
 header {
     border: 10px ;
 	border-style: groove;
@@ -33,30 +34,9 @@ header {
 	margin-bottom: 20px;
 	padding-bottom: 1.5;
 	text-align: center;
-	background-color: #66CCFF
-	-webkit-animation-name: example; 
-    -webkit-animation-duration: 10s; 
-    animation-name: example;
-    animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	
 }
 
-@-webkit-keyframes example {
-    0%  {background-color:#FF8040;}
-    25%  {background-color:#F0FF90;}
-    50%  {background-color:#60D0FF;}
-    75%  {background-color:#A0FFA0;}
-    100% {background-color:#FF8040;}
-}
-
-@keyframes example {
-    0%  {background-color:#FF8040;}
-    25%  {background-color:#F0FF90;}
-    50%  {background-color:#60D0FF;}
-    75%  {background-color:#A0FFA0;}
-    100% {background-color:#FF8040;}
-}
 
 .zanr {
 	padding-top: 20px;
@@ -73,7 +53,7 @@ header {
 }
 
 p {
-	margin: 5px;
+	margin: 5px;text-indent:10%
 }
 
 footer {
@@ -81,15 +61,18 @@ footer {
 }
 
 section {
-	line-height: 50px;
-	font-size: 130%;
+	
+	font-size: 90%;
 	text-align: justify;
 }
 
 aside {
 	font-style: italic;
 	animation-direction: alternate;
-	-webkit-animation-direction: normal;
+    -webkit-animation-direction: normal;}
+blockquote{float:left;font-size: 140%}
+        ol li:before{display: block; content: "***";color:black;text-align: center}
+li{list-style: none}
 }	
     </style>
   </head>
